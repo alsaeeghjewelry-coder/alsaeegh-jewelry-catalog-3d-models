@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R50v2 — 925 Silver Ring</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      font-family: system-ui, sans-serif;
+      background: #f8f9fa;
+      color: #1a1a1a;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: clamp(280px, 60vh, 520px);
+      background: radial-gradient(circle, #fff, #dce2e7);
+      border-radius: 8px;
+      --poster-color: transparent;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      margin-bottom: 4px;
+    }
+
+    p {
+      color: #5f6368;
+      line-height: 1.5;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <model-viewer
+      src="./r50v2-web.glb"
+      alt="Al Saeegh R50v2 sterling silver ring"
+      camera-controls
+      touch-action="pan-y"
+      auto-rotate
+      loading="eager">
+    </model-viewer>
+
+    <h1>Model R50v2 — 925 Silver Ring</h1>
+    <p>Stone dimensions: 17 × 12.5 mm<br>Estimated weight: 11 g</p>
+  </main>
+</body>
+</html>
